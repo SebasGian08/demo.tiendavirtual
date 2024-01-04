@@ -1,0 +1,208 @@
+.headerRegister, .header-primary{
+	background: #2499e3;
+	color: #FFF;
+}
+.headerUpdate{
+	background: #2499e3;
+	color: #FFF;
+	
+}
+
+/* .btn-info {
+	color: #FFF;
+	background-color: #007bff;
+	border-color: #007bff;
+  }
+  
+  .btn-info:hover {
+	color: #FFF;
+	background-color: #003d7e;
+	border-color: #003d7e;
+  } */
+
+ 
+
+  /* Ocultar status del modal editar */
+  /* .notBlock{
+	display: none;
+  } */
+
+  .required{
+	color: red;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+
+.textcenter{
+
+	text-align: center;
+}
+
+/*Estilos cargando login*/
+#divLoading{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.479);
+	z-index: 9999;
+	display: none;
+}
+#divLoading img{
+	width: 50px;
+	height: 50px;
+} 
+
+/* style portada categoría */
+.prevPhoto {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    border: 1px dashed #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../images/uploads/portada_categoria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+
+.prevPhoto:hover{
+	border: 1px dashed #008cff;
+}
+.prevPhoto label{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.prevPhoto img{
+	width: 100%;
+	height: 100%;
+}
+.upimg, .notblock{
+	display: none !important;
+}
+.errorArchivo{
+	font-size: 16px;
+	font-family: arial;
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold; 
+	margin-top: 10px;
+}
+.delPhoto{
+	color: #FFF;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background: red;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 10;
+}
+
+.delPhoto:hover{
+	background-color: #7a0000;
+}
+
+
+#tbl_list_productos img{
+	width: 50px;
+}
+.imgProductoDelete{
+	width: 175px;
+}
+
+imgCategoria {
+	text-align: center;
+}
+#imgCategoria img{
+	width: 200px;
+	margin: auto;
+}
+
+#imgBanners{
+	text-align: center;
+}
+#imgBanners img{
+	width: 200px;
+	margin: auto;
+}
+
+
+/* Upload fotos*/
+#containerImages{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#containerImages > div{
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+.prevImage{
+	border: 2px dashed #CCC;
+	width: 220px;
+	height: 248px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prevImage:hover{
+	border: 2px dashed #0867ff;
+}
+.prevImage img{
+	width: 100%;
+}
+.inputUploadfile{
+	display: none;
+}
+.btnUploadfile, .btnDeleteImage{
+	border: 0;
+	background-color: #009688;
+	text-align: center;
+	padding: 2px 3px;
+	color: #FFF;
+	font-size: 9pt;
+	cursor: pointer;
+	width: 100%;
+}
+.btnDeleteImage{
+	background-color: red;
+}
+
+.btnDeleteImage:hover{
+	background-color: rgb(158, 0, 0);
+	color: white;
+	box-shadow: 2px 5px 5px #6b6b6b;
+}
+
+.prevImage .loading{
+	width: 30px;
+	height: 30px;
+}
+#celFotos img{
+	width: 150px;
+	margin: 10px;
+}
+
